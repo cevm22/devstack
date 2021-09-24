@@ -26,6 +26,7 @@ Este repositorio tiene como finalidad de recordartorio de software, tips y coman
 > 
 > `_Bracket Pair Colorizer:`_ Los brackets [{()}] los cambia de color en cada par.
 > 
-:rocket:**Google Chrome DEVS:** para probar frontend y tener actualizaciones sobre lo nuevo.
-
+:rocket: **Google Chrome DEVS:** para probar frontend y tener actualizaciones sobre lo nuevo.
+:rocket: **Git Bash:** habilita terminal Linux en windows
+:rocket: **Filezilla:** Conexión a servidores para manipulación de archivos en remoto.
 #
