@@ -26,7 +26,15 @@ Este repositorio tiene como finalidad de recordartorio de software, tips y coman
 > 
 > `_Bracket Pair Colorizer:_` Los brackets [{()}] los cambia de color en cada par.
 > 
-> `_DotENV:_` Se utiliiza para soportar Enviroments de python
+> `_DotENV:_` Se utiliiza para soportar Enviroments de python.
+> 
+> `_Babel JavaScript_` Resaltar la sintaxis de JavaScript, React, Angular, Vue, JSX, Flow y GraphQL.
+> 
+> `_Import Cost_` Indica el peso de las librerías.
+>  
+> `_indent-rainbow_` Te pone de color la identación.
+> 
+> `_Settings Sync_` Sincroniza las extensiones de tu VS.
 
 
 :rocket: **Google Chrome DEVS:** para probar frontend y tener actualizaciones sobre lo nuevo.
@@ -40,6 +48,11 @@ Este repositorio tiene como finalidad de recordartorio de software, tips y coman
 :rocket: **Windows Terminal** Terminal de Windows 10, el cual puede usarse para powersell, linux y gitbash
 
 #
-**LIBROS**
+**LIBROS **
 #
 https://goalkicker.com/
+
+#
+**LINKS **
+#
+https://platzi.com/blog/10-plugins-esenciales-para-vscode/
