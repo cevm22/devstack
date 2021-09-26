@@ -34,4 +34,9 @@ Este repositorio tiene como finalidad de recordartorio de software, tips y coman
 :rocket: **Git Bash:** habilita terminal Linux en windows
 
 :rocket: **Filezilla:** Conexión a servidores para manipulación de archivos en remoto.
+
+:rocket: **Windows Subsystem for Linux:** Virtualización de linux para windows 10
 #
+**LIBROS**
+#
+https://goalkicker.com/
