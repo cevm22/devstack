@@ -36,6 +36,9 @@ Este repositorio tiene como finalidad de recordartorio de software, tips y coman
 :rocket: **Filezilla:** Conexión a servidores para manipulación de archivos en remoto.
 
 :rocket: **Windows Subsystem for Linux:** Virtualización de linux para windows 10
+
+:rocket: **Windows Terminal** Terminal de Windows 10, el cual puede usarse para powersell, linux y gitbash
+
 #
 **LIBROS**
 #
