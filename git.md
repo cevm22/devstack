@@ -103,3 +103,16 @@ El siguiente comando se utiliza para iniciar la conexión con github o un reposi
   
 **`git cherry-pick [id_commit]`** > Se utiliza para traer un commit a una rama y agregarlo.
 #
+
+#
+**CREACIÓN DE LLAVES SSH Y CONFIGURACIÓN (windows y linux)**
+#
+
+1 - Ir a home y ejecutar ssh-keygen > `-t rsa -b 4096 -C "youremail @ example.com"` 
+
+2 - Comprobar que el servidor de SSH está corriendo > `eval $(ssh-agent - s)`
+
+3 - Agregar llave al sistema > `ssh-add ~/.ssh/id_rsa`
+
+4 - Compartir la informacion de la llave `id_rsa.pub`
+
