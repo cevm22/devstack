@@ -108,7 +108,7 @@ El siguiente comando se utiliza para iniciar la conexión con github o un reposi
 **CREACIÓN DE LLAVES SSH Y CONFIGURACIÓN (windows y linux)**
 #
 
-1 - Ir a home y ejecutar ssh-keygen > `-t rsa -b 4096 -C "youremail @ example.com"` 
+1 - Ir a home y ejecutar >`ssh-keygen  -t rsa -b 4096 -C "youremail @ example.com"` 
 
 2 - Comprobar que el servidor de SSH está corriendo > `eval $(ssh-agent - s)`
 
