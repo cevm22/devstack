@@ -80,7 +80,7 @@ Este archivo contiene los comandos GIT más utilizados.
 **Comandos GIT en la nube**
 #
 El siguiente comando se utiliza para iniciar la conexión con github o un repositorio remoto por primera vez
-**`git pull [nombrecorto] main`** > previamente debe agregarse la URL con git remote add.
+**`git pull [nombrecorto] main --allow-unrelated-histories`** > previamente debe agregarse la URL con git remote add. 
 
 **`git remote add [nombrecorto] url_de_github_remoto`** > Se agrega la URL de un repositorio remoto y por lo general se utiliza la palabra "origin" como nombre. (puede que se esté trabajando en otros repositorios remotos al mismo tiempo).
 
@@ -93,6 +93,8 @@ El siguiente comando se utiliza para iniciar la conexión con github o un reposi
 **`git merge`** > combina los archivos del repositorio del git fetch O hace FUSIONA dos commits.
 
 **`git pull`** > los comandos fetch y merge al mismo tiempo.
+
+
 
 #
 **Malas prácticas**
