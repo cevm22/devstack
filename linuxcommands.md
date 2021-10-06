@@ -18,11 +18,13 @@
 **Agregar alias en terminal**
 
 > 1 - Ir hacia  `~/.bashrc` y agregar hasta al final una sección de "alias"
+> 
 > 2 - formato de agregado `alias c='clear'`
+> 
 > 3 - Salir con la secuencia ESC + Swift + Z + Z
+> 
 > 4 - reiniciar bashrc con el comando  `. ~/.bashrc`
 
+**Reiniciar WSL cuando no funciona VS**
 
-
-
-
+En terminal Powershell como administrador ejecutar el comando `wsl --shutdown` esto hace forza a reiniciar WSL y da solucion cuando no se conecta el VS directo con WSL
