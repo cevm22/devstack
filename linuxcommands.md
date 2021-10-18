@@ -28,3 +28,6 @@
 **Reiniciar WSL cuando no funciona VS**
 
 En terminal Powershell como administrador ejecutar el comando `wsl --shutdown` esto hace forza a reiniciar WSL y da solucion cuando no se conecta el VS directo con WSL
+
+**Para obtener la ruta de archivos de WSL**
+`explorer.exe .` No olvidar el "espacio y punto" al final
