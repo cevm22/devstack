@@ -1,6 +1,6 @@
 # **Comandos GIT** 
 Este archivo contiene los comandos GIT más utilizados.
-#
+
 
 **`git init`** > Se debe de utilizar en la carpeta raíz del proyecto y este comando da inicio a la cración de la base de datos GIT.
 
@@ -78,7 +78,7 @@ Este archivo contiene los comandos GIT más utilizados.
   
 #
 **Comandos GIT en la nube**
-#
+
 El siguiente comando se utiliza para iniciar la conexión con github o un repositorio remoto por primera vez
 **`git pull [nombrecorto] main --allow-unrelated-histories`** > previamente debe agregarse la URL con git remote add. 
 
@@ -94,21 +94,37 @@ El siguiente comando se utiliza para iniciar la conexión con github o un reposi
 
 **`git pull`** > los comandos fetch y merge al mismo tiempo.
 
+#
+**Arreglar gitignore file**
 
+
+**Step 1:** Commit all your pending changes in the repo which you want to fix and push that.
+
+**Step 2:** Now you need to remove everything from the git index in order to refresh your git repository. This is safe. Use this command:
+
+`git rm -r --cached .`
+
+**Step 3:** Now you need to add everything back into the repo, which can be done using this command:
+
+`git add .`
+
+**Step 4:** Finally you need to commit these changes, using this command:
+
+`git commit -m "Gitignore issue fixed"`
 
 #
 **Malas prácticas**
-#
+
 **REBASE:** Se utiliza para reescribir la historia, lo que hace es desaparecer una rama y fusionarla al master u otra rama. SOLO debe hacerse en loocal y NO EN MASTER de un servidor remoto. Pero por lo general se recomienda mejor hacer un merge.
 
 **`git rebase [nombre_branch]`** > Debe ejecutrase primeramente en la rama que se quiere desaparecer (git rebase experimento), hace git checkout a la rama que se quiere incorporar (git checkout master) y al final hacer (git rebase master).
   
 **`git cherry-pick [id_commit]`** > Se utiliza para traer un commit a una rama y agregarlo.
-#
+
 
 #
 **CREACIÓN DE LLAVES SSH Y CONFIGURACIÓN (windows y linux)**
-#
+
 
 1 - Ir a home y ejecutar >`ssh-keygen  -t rsa -b 4096 -C "youremail @ example.com"` 
 
