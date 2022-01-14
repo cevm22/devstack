@@ -13,7 +13,7 @@
 > 
 > 2 - Salir con la secuencia ESC + Swift + Z + Z
 > 
-> 3 - Finalmente reiniciar terminal.
+> 3 - Finalmente reiniciar terminal con comando source `source ~/.bashrc`
 
 **Agregar alias en terminal**
 
